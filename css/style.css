@@ -18,6 +18,17 @@ img {
   border-style: none;
 }
 
+ul, ol {
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+li {
+  padding-left: 5px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+}
+
 
 
 .pc-only {
@@ -229,9 +240,10 @@ img {
 }
 
 .skill-img {
-  width: 60px;
+  width: 120px;
   height: auto;
   margin-right: 20px;
+  border-radius: 50%;
 }
 
 .skill-body {
@@ -251,15 +263,17 @@ img {
  About
 ---------------------------------*/
 .profile {
-  display: flex;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 90%;
   margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px
 }
 .profile-img {
-  width: 20%;
-  margin-right: 30px;
+  display: inline-block;
+  width: 30%;
   border-radius: 50%;
+
 }
 .profile-img img {
   border-radius: 50%;
